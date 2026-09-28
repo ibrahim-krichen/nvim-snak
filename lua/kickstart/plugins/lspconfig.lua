@@ -271,7 +271,7 @@ return {
 				ensure_installed = {
 					"vtsls", -- Used for formatting and linting TypeScript and JavaScript code
 					"ts_ls", -- Used for LSP features in TypeScript and JavaScript files
-					"css-ls", -- Used for LSP features in CSS files
+					"cssls", -- Used for LSP features in CSS files
 				}, -- explicitly set to an empty table (Kickstart populates installs via mason-tool-installer)
 				automatic_installation = false,
 				handlers = {
